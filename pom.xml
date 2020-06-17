@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.efsavage</groupId>
 	<artifactId>demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>war</packaging>
 	<name>Hello World Web Application Repository</name>
 	<description>Simplest possible Java Webapp</description>
@@ -28,10 +28,10 @@
 
 
 		<distributionManagement>
-  <snapshotRepository>
-    <id>nexus</id>
-    <url>http://15.206.134.180:80/nexus/content/repositories/snapshots</url>
-  </snapshotRepository>
-</distributionManagement>
+  			<repository>
+    			<id>releases</id>
+    			<url>http://15.206.134.180:8081/nexus/content/repositories/releases</url>
+ 			 </repository>
+		</distributionManagement>
 
 </project>
