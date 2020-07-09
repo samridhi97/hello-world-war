@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.efsavage</groupId>
 	<artifactId>demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>war</packaging>
 	<name>Hello World Web Application Repository</name>
 	<description>Simplest possible Java Webapp</description>
@@ -23,11 +23,6 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>2.1.1</version>
 			</plugin>
-			<plugin>
-                	<groupId>org.wildfly.plugins</groupId>
-                	<artifactId>wildfly-maven-plugin</artifactId>
-                	<version>1.0.1.Final</version>
-            	</plugin>
 		</plugins>
 	</build>
 </project>
