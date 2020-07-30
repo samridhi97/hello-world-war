@@ -1,6 +1,6 @@
 ## FROM deepakaiden/apachetomcat
-FROM sri199008/dockertomcat
-LABEL Author="Srikant"
+FROM samridhi9719/dockertomcat
+LABEL Author="Samridhi"
 LABEL description="Use dockertomcat image as base image for custom tomcat deployment"
 USER root
 COPY $WORKSPACE/target/*.war /usr/local/tomcat/webapps/
