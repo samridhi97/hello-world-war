@@ -1,6 +1,6 @@
 pipeline {
     environment { 
-        registry = "sri199008/hello_war"
+        registry = "samridhi9719/hello_war"
         registryCredential = 'dockerhub'
         dockerImage = '' 
     }
@@ -10,7 +10,7 @@ pipeline {
         stage('SCM Checkout') {
             agent any
             steps {
-                git 'https://github.com/sri008/hello-world-war.git'
+                git 'https://github.com/samridhi97/hello-world-war.git'
             }
         }
         stage('Build') {
